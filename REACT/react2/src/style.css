@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background: #f4f7fb;
+}
+
+.portal {
+  width: min(920px, calc(100% - 32px));
+  margin: 48px auto;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #d8dee9;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 24px;
+  color: #0f5132;
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+.message {
+  padding: 20px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.message h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+  color: #1d4ed8;
+  letter-spacing: 0;
+}
+
+.message p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
