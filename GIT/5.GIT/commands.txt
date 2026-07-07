@@ -1,0 +1,11 @@
+cd ~/Git
+
+git status
+
+git branch
+
+git branch -a
+
+git pull origin main
+
+git push origin main
